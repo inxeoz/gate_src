@@ -1,0 +1,9 @@
+boolean algebra
+
+(x+y)(x+z) = x(x+z) + y(x+z)
+
+ = x.x + x.z + y.x + y.z
+ = x + x.z + y.x + y.z
+ = x (1 + z + y ) + yz  # here in OR operation if Anyone input is true (1) then whole output would be 1 [x(1+z+y)]
+ = x.1 + yz # in And Operation If Anyone input is one then whole output is zero , here our second input is 1 means the output depends on x [x.1]
+ = x + yz
